@@ -1,5 +1,8 @@
 import streamlit as st
-import re, string, json, tiktoken
+import re
+import string
+import json
+import tiktoken
 from nltk.corpus import stopwords
 from langchain_fireworks import ChatFireworks
 from langchain_core.messages import HumanMessage, SystemMessage
