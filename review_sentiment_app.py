@@ -126,14 +126,12 @@ st.markdown("Enter your feedback below and see if it's **Positive** or **Negativ
 user_review = st.text_area("enter your review, please", placeholder="Type your review here...", height=150)
 
 if st.button("Predict Sentiment"):
-    if not user_review.strip():
-        st.warning("Please enter a review before predicting.")
-    else:
+    if user_review.strip():
         with st.spinner("Analyzing review..."):
             feedback = ask_llm(user_review)
             if feedback == "Positive":
                 st.success("✅ Sentiment: Positive")
             elif feedback == "Negative":
                 st.error("❌ Sentiment: Negative")
-            else:
-                st.info("ℹ️ Result: Empty input or unclear")
+    else:
+        st.warning("Please enter a review before predicting.")
