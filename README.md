@@ -1,12 +1,20 @@
 # Zomato Review Sentiment Predictor
 
 - This project analyzes Zomato restaurant data to predict user feedback (positive or negative) for reviews using a Large Language Model (LLM).
-- The dataset, containing 51,717 entries, was preprocessed to handle missing values and standardize features like ratings, votes, and cuisines. Key features include clustering restaurants by service attributes and a Streamlit app for interactive sentiment prediction. The app leverages NLP techniques (e.g., text cleaning, stopwords removal) and the langchain_fireworks LLM to classify reviews in real-time. Check out the live demo [link to app, if deployed] to test your restaurant reviews!
+  
+- The dataset, containing 51,717 entries, was preprocessed to handle missing values and standardize features like ratings, votes, and cuisines. Key features include clustering restaurants by service attributes and a Streamlit app for interactive sentiment prediction.
 
-Tech Stack: Python, Pandas, Scikit-learn, Streamlit, NLTK, LangChain, Fireworks LLM
+- The app leverages NLP techniques (e.g., text cleaning, stopwords removal) and the langchain_fireworks LLM to classify reviews in real-time.
+-
+- Check out the live demo [https://zomato-reviews-predictor.streamlit.app/] to test your restaurant reviews!
 
-How to Run:
+# Tech Stack: 
+- Python, Pandas, Scikit-learn, Streamlit, NLTK, LangChain, Fireworks LLM
 
-Clone the repo: git clone <repo-link>
-Install dependencies: pip install -r requirements.txt
-Run the app: streamlit run app.py
+
+# How to Run:
+- Clone the repo: git clone <repo-link>
+
+- Install dependencies: pip install -r requirements.txt
+
+- Run the app: streamlit run app.py
