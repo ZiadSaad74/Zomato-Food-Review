@@ -15,7 +15,7 @@
 
 
 # How to Run:
-- Clone the repo: git clone <repo-link>
+- Clone the repo: **git clone [https://github.com/ZiadSaad74/Zomato-Food-Review]**
 
 - Install dependencies: pip install -r **requirements.txt**
 
