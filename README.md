@@ -15,8 +15,8 @@
 
 
 # How to Run:
-- Clone the repo: **git clone https://github.com/ZiadSaad74/Zomato-Food-Review**
+- Clone the repo ->  **git clone https://github.com/ZiadSaad74/Zomato-Food-Review**
 
-- Install dependencies: pip install -r **requirements.txt**
+- Install dependencies ->  pip install -r **requirements.txt**
 
-- Run the app: streamlit run **review_sentiment_app.py**
+- Run the app ->  streamlit run **review_sentiment_app.py**
