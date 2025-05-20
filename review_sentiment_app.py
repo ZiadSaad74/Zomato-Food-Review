@@ -2,12 +2,14 @@ import streamlit as st
 import re
 import string
 import json
+import nltk
 import tiktoken
 from nltk.corpus import stopwords
 from langchain_fireworks import ChatFireworks
 from langchain_core.messages import HumanMessage, SystemMessage
 # import logging
 
+nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
 def clean_text(text):
