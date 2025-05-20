@@ -6,6 +6,8 @@
 
 - The app leverages NLP techniques (e.g., text cleaning, stopwords removal) and the langchain_fireworks LLM to classify reviews in real-time.
 
+- You can find the the preprocessing steps, analysis and LLM creation in the file [code.ipynb] file, and about the streamlit page itself in the file **[review_sentiment_app.py]**
+
 - Check out the live demo [https://zomato-reviews-predictor.streamlit.app/] to test your restaurant reviews!
 
 # Tech Stack: 
