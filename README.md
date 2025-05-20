@@ -5,7 +5,7 @@
 - The dataset, containing 51,717 entries, was preprocessed to handle missing values and standardize features like ratings, votes, and cuisines. Key features include clustering restaurants by service attributes and a Streamlit app for interactive sentiment prediction.
 
 - The app leverages NLP techniques (e.g., text cleaning, stopwords removal) and the langchain_fireworks LLM to classify reviews in real-time.
--
+
 - Check out the live demo [https://zomato-reviews-predictor.streamlit.app/] to test your restaurant reviews!
 
 # Tech Stack: 
