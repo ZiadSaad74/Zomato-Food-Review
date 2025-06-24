@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 import re, string, json, tiktoken
 from nltk.corpus import stopwords
