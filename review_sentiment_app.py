@@ -271,4 +271,3 @@ if st.button("Predict Sentiment"):
                 st.error("❌ Sentiment: Negative")
     else:
         st.warning("Please enter a review before predicting.")
->>>>>>> 4c4c85d13ed6b144378930c65e09c89d9ca0e534
