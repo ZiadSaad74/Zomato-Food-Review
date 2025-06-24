@@ -5,6 +5,7 @@ from langchain_fireworks import ChatFireworks
 from langchain_core.messages import HumanMessage, SystemMessage
 # import logging
 
+nlt.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
 def clean_text(text):
