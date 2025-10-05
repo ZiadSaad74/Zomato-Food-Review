@@ -15,6 +15,10 @@
 # Tech Stack: 
 - Python, Pandas, Scikit-learn, Streamlit, NLTK, LangChain, Fireworks LLM
 
+# The repo includes two notebooks:
+- The first one is "Code.ipynb" it's related to the files "Data wrangling steps" and "Univariate and Bivariate analysis questions"
+- The second one is "Zoamto.ipynb" this includes Same wrangling steps and Analsis quesiton, But it implements a LLM for sentiments prediction, it's related to the python file "review_sentiment_app.py"
+- Both notebooks are done on the same dataset "Dataset.rar"
 
 # How to Run:
 - Clone the repo ->  **git clone https://github.com/ZiadSaad74/Zomato-Food-Review**
