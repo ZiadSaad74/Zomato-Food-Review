@@ -1,0 +1,21 @@
+analysis steps
+
+univariate analysis:
+
+1- what's the percentage of resturants that make online order? categories (0 or 1)
+2- what's the percentage of resturants that can book tables? (0 for no) (1 for yes)
+3- what's the percentage of each type of returants types ?
+4- What's the average rate for the rating ?
+5- what's the distribution of raing ?
+6- what's the distribution of cost ?
+7- what's the min and max value of cost and how many times did they appear?
+8- what's the min and max value of rating?
+
+bivariate analysis:
+
+1- what's the relationship between cost and rating ?
+2- what's the relationship between cost and online order ?
+3- what's the relationship between cost and book table ?
+4- what's the relationship between votes and rating ?
+5- what's the relationship between votes and cost?
+6- Is there any relationship between returant type and cost ?

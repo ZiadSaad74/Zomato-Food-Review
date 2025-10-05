@@ -1,0 +1,12 @@
+1- check datatypes
+2- check messy data
+3- remove irrelevent columns that will not help in analysis
+4- check columns names to edit them if they need
+*************************************************************************
+
+1- irrelevent columns to be deleted (Url - menu - address)
+2- fill missing data in location column by none, in phone by 0, 
+3- rename some columns to ease dealong with them and ease reading them (listed_in(type) - listed_in(city) - aprox_cost(for two people) ) to (listed_city - listed_type - cost_for_two)
+4- replace null values in rest_type with the corresponding value in list_type column.
+5- leave cost, rate now, i will try to find regression model to predict it 
+6- check duplication is rows to be deleted, as it's redundant data 
